@@ -1,0 +1,18 @@
+body{
+    background-color: crimson;
+}
+.Titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200px;
+   text-align: center;
+   animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim{
+    0% {background-color: #ff0;} /*Amarillo*/
+   25% {background-color: #f80;} /*Naranja*/
+   50% {background-color: #000;} /*Negro*/
+   75% {background-color: #f80;} /*Otra vez naranja*/
+  100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
