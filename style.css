@@ -1,13 +1,13 @@
 body{
-    background-color: crimson;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 .Titulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 200px;
    text-align: center;
-   animation-name: anim;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+   
 }
 @keyframes anim{
     0% {background-color: #ff0;} /*Amarillo*/
@@ -15,4 +15,10 @@ body{
    50% {background-color: #000;} /*Negro*/
    75% {background-color: #f80;} /*Otra vez naranja*/
   100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
+.Cuerpo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+ text-align: center;
+ background-color: #f80;
 }
